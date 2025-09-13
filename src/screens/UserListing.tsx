@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { fetchData } from '../api/apiCall';
 import { Card, Row, Col, Avatar, Modal, Form, Input, Popconfirm } from 'antd';
 import { EditOutlined, DeleteOutlined, HeartOutlined, HeartFilled } from '@ant-design/icons';
 import { createAvatar } from '@dicebear/core';
-import { adventurer, funEmoji, identicon, lorelei, miniavs, personas } from '@dicebear/collection';
+import { personas } from '@dicebear/collection';
 import Loader from '../components/loader';
 
 interface Address {
